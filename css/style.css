@@ -8,6 +8,8 @@
 }
 body{
     font-family: montserrat;
+    margin: 0;
+    padding: 0;
 }
 
 /* ############################ NAVBAR ############################ */
@@ -15,6 +17,8 @@ nav{
     background: #c3ab4a;
     height: 80px;
     width: 100%;
+    position: relative; 
+    z-index: 10; 
 }
 label.logo {
    color: white;
@@ -41,11 +45,13 @@ nav ul li a{
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
+    
 }
 
 a.active, a:hover{
     background: #a19770;
     transition: .5s;
+
 }
 .checkbtn{
     font-size:30px ;
@@ -106,3 +112,5 @@ a.active, a:hover{
     }
 }
 /* ############################ NAVBAR END ############################ */
+
+
